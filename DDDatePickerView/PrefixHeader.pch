@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  DDDropDownMenuView
+//
+//  Created by DD on 2018/9/11.
+//  Copyright © 2018年 DD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "CustomColorView.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕物理宽、高
+#define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
+//色值转换
+#define COLOR_HEX_STR(s,a) [CustomColorView colorWithHexString:s alpha:a]
+//px 字体转iOS字体
+#define PX_OR_PT(px) [UIFont systemFontOfSize:px]
+#define WEAK_SELF __typeof(&*self) __weak weakSelf = self;
+#define STRONG_SELF __typeof(&*self) __strong strongSelf = weakSelf
+
+#endif /* PrefixHeader_pch */
