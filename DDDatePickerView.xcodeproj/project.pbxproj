@@ -15,6 +15,7 @@
 		6344B71F214B547C003854E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344B71E214B547C003854E9 /* main.m */; };
 		6344B727214B5490003854E9 /* DDDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344B726214B5490003854E9 /* DDDatePickerView.m */; };
 		6344B72B214B54AC003854E9 /* CustomColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344B729214B54AB003854E9 /* CustomColorView.m */; };
+		6344B72D214B595F003854E9 /* 屏幕快照 2018-09-14 上午10.49.36.png in Resources */ = {isa = PBXBuildFile; fileRef = 6344B72C214B595F003854E9 /* 屏幕快照 2018-09-14 上午10.49.36.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6344B728214B54AB003854E9 /* CustomColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColorView.h; sourceTree = "<group>"; };
 		6344B729214B54AB003854E9 /* CustomColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColorView.m; sourceTree = "<group>"; };
 		6344B72A214B54AB003854E9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6344B72C214B595F003854E9 /* 屏幕快照 2018-09-14 上午10.49.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2018-09-14 上午10.49.36.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		6344B70E214B5478003854E9 /* DDDatePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				6344B72C214B595F003854E9 /* 屏幕快照 2018-09-14 上午10.49.36.png */,
 				6344B725214B548F003854E9 /* DDDatePickerView.h */,
 				6344B726214B5490003854E9 /* DDDatePickerView.m */,
 				6344B70F214B5478003854E9 /* AppDelegate.h */,
@@ -143,6 +146,7 @@
 				6344B71C214B547C003854E9 /* LaunchScreen.storyboard in Resources */,
 				6344B719214B547C003854E9 /* Assets.xcassets in Resources */,
 				6344B717214B5478003854E9 /* Main.storyboard in Resources */,
+				6344B72D214B595F003854E9 /* 屏幕快照 2018-09-14 上午10.49.36.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
